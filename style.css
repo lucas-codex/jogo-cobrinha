@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(206, 206, 206);
+    height: 95vh;
+    width: 95;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+canvas {
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .6);
+}
+
+#main{
+    background-color: white;
+    padding: 40px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.481);
+}
+
+h1{
+    text-align: center;
+    font-size: 3em;
+    background-color: rgb(0, 102, 255);
+    border-radius: 10px;
+    border-style: groove;
+}
